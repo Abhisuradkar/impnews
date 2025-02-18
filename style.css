@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0% ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+}
+.logo li{
+    list-style: none;
+    margin-inline: 25px;
+    font-size: 25px;
+}
+.searcbar{
+    display: flex;
+}
+.searcbar input{
+    width: 20px;
+    padding: 7px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+    margin-inline: 5px;   
+}
+.carddata{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: auto;
+}
+.card{
+    width: 300px;
+    background-color: #fff;
+    padding: 11px;
+    margin-top: 25px;
+}
+.card img{
+    width: 100%;
+    height: 45%;
+}
+.card h3{
+    margin-top: 10px;
+    padding: 3px;
+   
+}
+.card p{
+    margin-top: 10px;
+    padding: 2px;
+   
+}
+
